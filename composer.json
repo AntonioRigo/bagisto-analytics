@@ -22,5 +22,15 @@
                 "Tapstar\\Analytics\\Providers\\AnalyticsServiceProvider"
             ]
         }
-    }
+    },
+    "keywords": [
+        "bagisto",
+        "analytics",
+        "google-tag-manager",
+        "ga4",
+        "meta-pixel",
+        "ecommerce",
+        "laravel"
+    ],
+    "homepage": "https://github.com/AntonioRigo/bagisto-analytics"
 }
