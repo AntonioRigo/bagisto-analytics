@@ -17,7 +17,7 @@
              * either would bill the same order to the ad platforms twice. One
              * marker per transaction keeps the conversion count honest.
              */
-            var marker = 'tapstar_purchase_' + purchase.transaction_id;
+            var marker = 'analytics_purchase_' + purchase.transaction_id;
 
             try {
                 if (window.sessionStorage && sessionStorage.getItem(marker)) {
@@ -29,39 +29,9 @@
                 /** Private mode and blocked storage still get one event per page load. */
             }
 
-            @if ($gtmId)
-                window.dataLayer = window.dataLayer || [];
+            @include('analytics::vendors.google.purchase')
 
-                window.dataLayer.push({ ecommerce: null });
-
-                window.dataLayer.push({
-                    event: 'purchase',
-                    ecommerce: purchase
-                });
-            @endif
-
-            @if ($ga4Id)
-                if (typeof gtag === 'function') {
-                    gtag('event', 'purchase', purchase);
-                }
-            @endif
-
-            @if ($metaPixelId)
-                if (typeof fbq === 'function') {
-                    fbq('track', 'Purchase', {
-                        value: purchase.value,
-                        currency: purchase.currency,
-                        content_type: 'product',
-                        contents: purchase.items.map(function (item) {
-                            return {
-                                id: item.item_id,
-                                quantity: item.quantity,
-                                item_price: item.price
-                            };
-                        })
-                    }, { eventID: 'purchase.' + purchase.transaction_id });
-                }
-            @endif
+            @include('analytics::vendors.meta.purchase')
         })();
     </script>
 @endif
