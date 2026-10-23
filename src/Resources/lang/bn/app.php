@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'অ্যানালিটিক্স ও ট্র্যাকিং',
             'info' => 'Google Tag Manager, GA4 এবং Meta Pixel। ট্যাগ সব পেজে লোড হয়; ক্রয় ইভেন্ট প্রতি অর্ডারে একবার পাঠানো হয়।',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'স্ট্যাটাস',
             'gtm-id' => 'Google Tag Manager আইডি',
             'gtm-id-info' => 'কন্টেইনার আইডি, যেমন GTM-ABCD123। Tag Manager না থাকলে খালি রাখুন।',

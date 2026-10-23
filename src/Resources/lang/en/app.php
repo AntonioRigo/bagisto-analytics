@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analytics & Tracking',
             'info' => 'Google Tag Manager, GA4 and Meta Pixel. Tags load on every storefront page; the purchase event fires once per order on the success page.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Status',
             'gtm-id' => 'Google Tag Manager ID',
             'gtm-id-info' => 'Container ID, e.g. GTM-ABCD123. Leave empty if you do not use Tag Manager.',

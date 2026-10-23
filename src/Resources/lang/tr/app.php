@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analitik ve izleme',
             'info' => 'Google Tag Manager, GA4 ve Meta Pixel. Etiketler tüm mağazada yüklenir; satın alma olayı sipariş başına bir kez gönderilir.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Durum',
             'gtm-id' => 'Google Tag Manager kimliği',
             'gtm-id-info' => 'Kapsayıcı kimliği, ör. GTM-ABCD123. Tag Manager kullanmıyorsanız boş bırakın.',

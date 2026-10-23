@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analítica i seguiment',
             'info' => 'Google Tag Manager, GA4 i Meta Pixel. Les etiquetes es carreguen a tota la botiga; l’esdeveniment de compra s’envia un cop per comanda.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Estat',
             'gtm-id' => 'ID de Google Tag Manager',
             'gtm-id-info' => 'ID del contenidor, ex. GTM-ABCD123. Deixa-ho buit si no fas servir Tag Manager.',

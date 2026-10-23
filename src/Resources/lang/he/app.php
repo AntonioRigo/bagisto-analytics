@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'אנליטיקה ומעקב',
             'info' => 'Google Tag Manager, GA4 ו-Meta Pixel. התגיות נטענות בכל דפי החנות; אירוע הרכישה נשלח פעם אחת לכל הזמנה.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'סטטוס',
             'gtm-id' => 'מזהה Google Tag Manager',
             'gtm-id-info' => 'מזהה מכולה, לדוגמה GTM-ABCD123. השאר ריק אם אינך משתמש ב-Tag Manager.',

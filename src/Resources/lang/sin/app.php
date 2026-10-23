@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'විශ්ලේෂණ සහ ලුහුබැඳීම',
             'info' => 'Google Tag Manager, GA4 සහ Meta Pixel. ටැග් සියලු පිටුවල පූරණය වේ; මිලදී ගැනීමේ සිදුවීම ඇණවුමකට වරක් යවයි.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'තත්ත්වය',
             'gtm-id' => 'Google Tag Manager හැඳුනුම',
             'gtm-id-info' => 'කන්ටේනර හැඳුනුම, උදා. GTM-ABCD123. Tag Manager භාවිත නොකරන්නේ නම් හිස්ව තබන්න.',

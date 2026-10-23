@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analiză și urmărire',
             'info' => 'Google Tag Manager, GA4 și Meta Pixel. Etichetele se încarcă în tot magazinul; evenimentul de achiziție se trimite o dată per comandă.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Stare',
             'gtm-id' => 'ID Google Tag Manager',
             'gtm-id-info' => 'ID container, ex. GTM-ABCD123. Lasă gol dacă nu folosești Tag Manager.',

@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'アナリティクスとトラッキング',
             'info' => 'Google タグ マネージャー、GA4、Meta ピクセル。タグは全ページで読み込まれ、購入イベントは注文ごとに1回送信されます。',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'ステータス',
             'gtm-id' => 'Google タグ マネージャー ID',
             'gtm-id-info' => 'コンテナ ID（例: GTM-ABCD123）。タグ マネージャーを使わない場合は空欄に。',

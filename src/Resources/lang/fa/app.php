@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'تحلیل و ردیابی',
             'info' => 'Google Tag Manager، GA4 و Meta Pixel. تگ‌ها در همه صفحات فروشگاه بارگذاری می‌شوند و رویداد خرید یک‌بار برای هر سفارش ارسال می‌شود.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'وضعیت',
             'gtm-id' => 'شناسه Google Tag Manager',
             'gtm-id-info' => 'شناسه کانتینر، مثل GTM-ABCD123. اگر از Tag Manager استفاده نمی‌کنید خالی بگذارید.',

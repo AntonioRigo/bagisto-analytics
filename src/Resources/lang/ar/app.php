@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'التحليلات والتتبع',
             'info' => 'Google Tag Manager وGA4 وMeta Pixel. تُحمَّل الوسوم في كل صفحات المتجر، ويُرسَل حدث الشراء مرة واحدة لكل طلب.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'الحالة',
             'gtm-id' => 'معرّف Google Tag Manager',
             'gtm-id-info' => 'معرّف الحاوية، مثل GTM-ABCD123. اتركه فارغًا إن لم تستخدم Tag Manager.',

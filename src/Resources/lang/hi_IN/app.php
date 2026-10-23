@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'एनालिटिक्स और ट्रैकिंग',
             'info' => 'Google Tag Manager, GA4 और Meta Pixel. टैग हर स्टोर पेज पर लोड होते हैं; खरीद इवेंट प्रति ऑर्डर एक बार भेजा जाता है।',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'स्थिति',
             'gtm-id' => 'Google Tag Manager आईडी',
             'gtm-id-info' => 'कंटेनर आईडी, जैसे GTM-ABCD123. Tag Manager न हो तो खाली छोड़ें।',

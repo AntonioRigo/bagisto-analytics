@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analisi e tracciamento',
             'info' => 'Google Tag Manager, GA4 e Meta Pixel. I tag si caricano su tutto il negozio; l’evento di acquisto viene inviato una volta per ordine.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Stato',
             'gtm-id' => 'ID Google Tag Manager',
             'gtm-id-info' => 'ID del contenitore, es. GTM-ABCD123. Lascia vuoto se non usi Tag Manager.',

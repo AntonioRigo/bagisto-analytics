@@ -6,6 +6,11 @@ return [
         'name' => 'analytics::app.admin.config.title',
         'info' => 'analytics::app.admin.config.info',
         'sort' => 6,
+    ], [
+        'key'  => 'general.analytics.settings',
+        'name' => 'analytics::app.admin.config.settings-title',
+        'info' => 'analytics::app.admin.config.settings-info',
+        'sort' => 1,
         'fields' => [
             [
                 'name'          => 'active',

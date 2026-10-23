@@ -20,7 +20,7 @@ class Tracker
      */
     public function isEnabled(): bool
     {
-        return (bool) core()->getConfigData('general.analytics.active');
+        return (bool) core()->getConfigData('general.analytics.settings.active');
     }
 
     /**
@@ -32,7 +32,7 @@ class Tracker
             return null;
         }
 
-        $value = trim((string) core()->getConfigData('general.analytics.'.$field));
+        $value = trim((string) core()->getConfigData('general.analytics.settings.'.$field));
 
         if ($value === '') {
             return null;
@@ -55,7 +55,7 @@ class Tracker
     public function tracksPurchase(): bool
     {
         return $this->hasAnyTag()
-            && (bool) core()->getConfigData('general.analytics.track_purchase');
+            && (bool) core()->getConfigData('general.analytics.settings.track_purchase');
     }
 
     /**

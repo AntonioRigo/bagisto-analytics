@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => '分析与跟踪',
             'info' => 'Google 跟踪代码管理器、GA4 和 Meta Pixel。代码在所有店铺页面加载；购买事件每个订单发送一次。',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => '状态',
             'gtm-id' => 'Google 跟踪代码管理器 ID',
             'gtm-id-info' => '容器 ID，例如 GTM-ABCD123。若不使用跟踪代码管理器请留空。',

@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Аналитика и отслеживание',
             'info' => 'Google Tag Manager, GA4 и Meta Pixel. Теги загружаются на всех страницах; событие покупки отправляется один раз на заказ.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Статус',
             'gtm-id' => 'Идентификатор Google Tag Manager',
             'gtm-id-info' => 'ID контейнера, напр. GTM-ABCD123. Оставьте пустым, если не используете Tag Manager.',

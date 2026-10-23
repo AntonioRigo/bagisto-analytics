@@ -5,6 +5,8 @@ return [
         'config' => [
             'title' => 'Analyse en tracking',
             'info' => 'Google Tag Manager, GA4 en Meta Pixel. Tags laden op elke winkelpagina; het aankoopevenement wordt één keer per bestelling verzonden.',
+            'settings-title' => 'Settings',
+            'settings-info' => 'The identifiers for each service, and what the store reports.',
             'status' => 'Status',
             'gtm-id' => 'Google Tag Manager-ID',
             'gtm-id-info' => 'Container-ID, bijv. GTM-ABCD123. Laat leeg als je Tag Manager niet gebruikt.',
